@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home"
+    android:background="#0FF107">
+
+    <!-- TODO: Update blank fragment layout -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        tools:context=".MainDashboard"
+        android:background="@color/purple_200">
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView3"
+            android:layout_width="match_parent"
+            android:layout_height="680dp"
+            android:backgroundTint="@color/white"
+            android:elevation="20dp"
+            app:cardCornerRadius="15dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="655dp">
+
+
+                <TextView
+                    android:id="@+id/textName"
+                    android:layout_width="105dp"
+                    android:layout_height="52dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="120dp"
+                    android:text="Hi Ritik"
+                    android:textColor="@color/black"
+                    android:textSize="28dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.086"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="MissingConstraints" />
+
+                <TextView
+                    android:id="@+id/textView14"
+                    android:layout_width="373dp"
+                    android:layout_height="46dp"
+                    android:layout_marginTop="68dp"
+                    android:text=" Choose the problems where you want to develop yourseelf"
+                    android:textColor="@color/black"
+                    android:textColorHint="#151414"
+                    android:textSize="16dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.461"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+
+                <TextView
+                    android:id="@+id/agresion_txt"
+                    android:layout_width="165dp"
+                    android:layout_height="90dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="148dp"
+                    android:background="@drawable/btns1"
+                    android:gravity="center"
+                    android:text="AVOID AGRESSION"
+                    android:textColor="@color/white"
+                    android:textSize="17dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/effective_txt"
+                    android:layout_width="165dp"
+                    android:layout_height="90dp"
+                    android:layout_marginTop="32dp"
+                    android:background="@drawable/btns3"
+                    android:gravity="center"
+                    android:text="EFFECTIVE COMMUNICATION"
+                    android:textColor="@color/white"
+                    android:textSize="17dp"
+                    app:layout_constraintEnd_toStartOf="@+id/selfreflection_txt"
+                    app:layout_constraintHorizontal_bias="0.257"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/agresion_txt" />
+
+                <TextView
+                    android:id="@+id/asertive_txt"
+                    android:layout_width="165dp"
+                    android:layout_height="90dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginBottom="28dp"
+                    android:background="@drawable/btns2"
+                    android:gravity="center"
+                    android:text="ASSERTIVE COMUNICATION"
+                    android:textColor="@color/white"
+                    android:textSize="17dp"
+                    app:layout_constraintBottom_toTopOf="@+id/others_txt"
+                    app:layout_constraintStart_toStartOf="parent" />
+
+                <TextView
+                    android:id="@+id/submissive_txt"
+                    android:layout_width="165dp"
+                    android:layout_height="90dp"
+                    android:layout_marginEnd="28dp"
+                    android:layout_marginBottom="416dp"
+                    android:background="@drawable/btns4"
+                    android:gravity="center"
+                    android:text="DETTORING SUBMISIVENESS"
+                    android:textColor="@color/white"
+                    android:textSize="17dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="1.0"
+                    app:layout_constraintStart_toEndOf="@+id/agresion_txt" />
+
+                <TextView
+                    android:id="@+id/verbal_txt"
+                    android:layout_width="165dp"
+                    android:layout_height="90dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginBottom="28dp"
+                    android:background="@drawable/btns1"
+                    android:gravity="center"
+                    android:text="VERBAL COMUNICATION"
+                    android:textColor="@color/white"
+                    android:textSize="17dp"
+                    app:layout_constraintBottom_toTopOf="@+id/others_txt"
+                    app:layout_constraintStart_toEndOf="@+id/asertive_txt" />
+
+                <TextView
+                    android:id="@+id/others_txt"
+                    android:layout_width="165dp"
+                    android:layout_height="90dp"
+                    android:layout_marginBottom="44dp"
+                    android:background="@drawable/btns4"
+                    android:gravity="center"
+                    android:text="OTHERS"
+                    android:textColor="@color/white"
+                    android:textSize="17dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent" />
+
+                <TextView
+                    android:id="@+id/selfreflection_txt"
+                    android:layout_width="165dp"
+                    android:layout_height="90dp"
+                    android:layout_marginEnd="28dp"
+                    android:layout_marginBottom="40dp"
+                    android:background="@drawable/btns2"
+                    android:gravity="center"
+                    android:text="SELF REFLECTION"
+                    android:textColor="@color/white"
+                    android:textSize="17dp"
+                    app:layout_constraintBottom_toTopOf="@+id/verbal_txt"
+                    app:layout_constraintEnd_toEndOf="parent" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.cardview.widget.CardView>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:showIn="navigation_view">
+<!--    <item android:id="@+id/nav_notification"-->
+<!--        android:icon="@drawable/ic_baseline_notifications_24"-->
+<!--        android:title="notification"-->
+<!--        app:showAsAction="ifRoom"/>-->
+
+<group android:checkableBehavior="single">
+    <item android:id="@+id/nav_acount"
+        android:icon="@drawable/ic_baseline_person_24"
+        android:title="My Acount"
+        />
+
+    <item android:id="@+id/nav_message"
+        android:icon="@drawable/ic_baseline_message_24"
+        android:title="Session"
+        />
+    <item android:id="@+id/nav_setting"
+        android:icon="@drawable/ic_baseline_settings_applications_24"
+        android:title="Message"
+        />
+
+    <item android:id="@+id/nav_logout"
+        android:icon="@drawable/ic_baseline_login_24"
+        android:title="Logout"
+        />
+</group>
+    <item android:title="Comunicate">
+        <menu>
+            <item android:id="@+id/nav_share"
+                android:icon="@drawable/ic_baseline_share_24"
+                android:title="Share"/>
+            <item android:id="@+id/nav_send"
+                android:icon="@drawable/ic_baseline_send_24"
+                android:title="Send"/>
+        </menu>
+
+
+    </item>
+
+
+
+</menu>

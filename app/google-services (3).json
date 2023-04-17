@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "832369065679",
+    "project_id": "heuristic-67370",
+    "storage_bucket": "heuristic-67370.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:832369065679:android:39447f3e20ee4051f041ba",
+        "android_client_info": {
+          "package_name": "com.example.hurestioc01"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "832369065679-fud47ma0s5q0kl2lecgtq5d5sn9flnel.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCbc2rPEZh0gCBMZpssfIz66VPfVD8ArdU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "832369065679-fud47ma0s5q0kl2lecgtq5d5sn9flnel.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
